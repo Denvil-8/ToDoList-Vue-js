@@ -1,0 +1,49 @@
+body {
+    font-family: Consolas, monospace;
+    font-size: 22px;
+    text-align: center;
+}
+h2 {
+    margin: 20px;
+    padding-bottom: 12px;
+    border-bottom-style: groove;
+}
+.h2-done {
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-right: 150px;
+    border-bottom-style: groove;
+}
+input {
+    margin: 5px;
+    font-size: 14px;
+    border-color: darkgrey;
+    border-width: 3px;
+}
+button {
+    background-color: darkgrey;
+    border: 1px solid black;
+    color: white;
+    padding: 8px 12px;
+    font-size: 12px;
+}
+button:hover {
+    background-color: black;
+}
+.btn-trash {
+    padding: 4px 4px;
+    background-color: white;
+    border-color: white;
+    font-size: 18px;
+}
+.btn-trash:hover {
+    background-color: white;
+}
+li {
+    display: flex;
+    justify-content: center;
+    height: 15px;
+    margin-bottom: 25px;
+    margin-right: 95px;
+}
